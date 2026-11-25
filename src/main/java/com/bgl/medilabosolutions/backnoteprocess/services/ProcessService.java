@@ -96,7 +96,6 @@ public class ProcessService {
 
     }
 
-
     private Integer calculAge(LocalDate birthDate) {
         return Period.between(birthDate, LocalDate.now()).getYears();
     }
