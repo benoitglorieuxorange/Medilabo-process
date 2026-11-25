@@ -1,4 +1,8 @@
 package com.bgl.medilabosolutions.backnoteprocess.dto;
 
-public record CaseRequestDto() {
-}
+import java.time.LocalDate;
+
+public record CaseRequestDto(
+        String sexe,
+        LocalDate dateNaissance
+) {}
