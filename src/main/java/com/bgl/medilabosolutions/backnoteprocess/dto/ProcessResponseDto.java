@@ -1,4 +1,7 @@
 package com.bgl.medilabosolutions.backnoteprocess.dto;
 
-public record ProcessResponseDto() {
-}
+import com.bgl.medilabosolutions.backnoteprocess.enums.RiskState;
+
+public record ProcessResponseDto(
+    RiskState riskState
+) {}
